@@ -14,8 +14,9 @@ STAR_EXCEPTION(ApplicationException, StarException);
 enum class WindowMode { Normal, Maximized, Fullscreen, Borderless };
 
 /**
- * Root class for the client. Manages rendering and uses ApplicationController
- * to interface with user input and window properties
+ * Basic interfce for application control. Manages rendering
+ * and uses ApplicationController to interface with user input
+ * and window properties.
  */
 class Application {
 public:
